@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:TitleViewTest" 
+    x:Class="TitleViewTest.MainPage">
+    <NavigationPage.TitleView>
+        <Image Source="caeno_logo" />
+    </NavigationPage.TitleView>
+    <StackLayout>
+        <Label 
+            Text="Teste de Barra de navegação personalizada do Xamarin.Forms!" 
+            Margin="32,0"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="CenterAndExpand" />
+        <Button
+            Clicked="OnNextClicked"
+            HorizontalOptions="Center"
+            Text="Navegar" />
+    </StackLayout>
+</ContentPage>
